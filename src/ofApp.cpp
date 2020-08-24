@@ -201,7 +201,7 @@ void ofApp::ofDrawStar(int x, int y, int r){
         } else {
             R = inR;
         }
-        ofVertex(R*cos(DEG_TO_RAD*(360*i/vertexNum)), R*sin(DEG_TO_RAD*(360*i/vertexNum)));
+        ofVertex(R*cos(ofDegToRad(360*i/vertexNum)), R*sin(ofDegToRad(360*i/vertexNum)));
     }
     ofEndShape();
     ofPopMatrix();
