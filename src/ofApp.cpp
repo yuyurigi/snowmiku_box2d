@@ -100,7 +100,6 @@ void ofApp::draw(){
         ofPushMatrix();
         ofTranslate(pos.x - size*2/2, pos.y - size*2/2);
         ofScale(.025*size*2, .025*size*2);
-            colors[sc[i]].set(colors[sc[i]].r, colors[sc[i]].g, colors[sc[i]].b);
             paths[ss[i]].setFillColor(colors[sc[i]]);
             paths[ss[i]].draw();
             
